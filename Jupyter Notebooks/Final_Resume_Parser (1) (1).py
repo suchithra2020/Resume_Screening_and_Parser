@@ -356,7 +356,7 @@ df = pd.DataFrame(columns=['Name','Mobile No.', 'Email','DOB','Education Qualifi
 
 
 i=0
-path_input = r"C:/Users\Moin Dalvi\Data_Science\Projects\Resume_Classification/Resumes_docx/Peoplesoft/Peoplesoft Admin_AnubhavSingh.docx"
+path_input = r""C:\Users\kushalreddy\Downloads\keerthana\Resume_Screening_and_Parser-main\Resumes_docx\Peoplesoft Admin\Peoplesoft Admin_AnubhavSingh.docx""
 if path_input.endswith('.docx'):
     text = extract_text_from_docx(path_input)
     tokText = tokenText(text)
