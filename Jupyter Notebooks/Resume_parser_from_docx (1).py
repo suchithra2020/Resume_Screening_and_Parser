@@ -388,7 +388,7 @@ def extract_text_from_docx(path):
 
 
 i=0
-path_input = r"C:/Users\Moin Dalvi\Data_Science\Projects\Resume_Classification/Resumes_docx/"
+path_input = r"C:\Users\kushalreddy\Downloads\keerthana\Resume_Screening_and_Parser-main\Resumes_docx"
 for folder in os.listdir(path_input):
     folder_path = os.path.join(path_input, folder)
     for file in os.listdir(folder_path):
