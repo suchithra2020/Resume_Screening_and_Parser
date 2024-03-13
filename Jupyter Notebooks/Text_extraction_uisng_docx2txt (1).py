@@ -30,7 +30,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # In[2]:
 
 
-path_input = r"C:/Users\Moin Dalvi\Data_Science\Projects\Resume_Classification/Resumes_docx/"
+path_input = r"C:\Users\kushalreddy\Downloads\keerthana\Resume_Screening_and_Parser-main\Resumes_docx"
 for folder in os.listdir(path_input):
     folder_path = os.path.join(path_input, folder)
     for file in os.listdir(folder_path):
@@ -42,7 +42,7 @@ for folder in os.listdir(path_input):
 # In[4]:
 
 
-file_path = r"C:/Users\Moin Dalvi\Data_Science\Projects\Resume_Classification/Resumes_docx"
+file_path = r"C:\Users\kushalreddy\Downloads\keerthana\Resume_Screening_and_Parser-main\Resumes_docx"
 extracted_data = []
 profile_names = []
 
