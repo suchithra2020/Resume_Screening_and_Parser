@@ -194,7 +194,7 @@ def skillSet(Text):
 ResumeText = pd.DataFrame([], columns=['Name', 'Exp_years', 'SkillSet','TextInfo'])
 
 # Mention the path in your computer where resumes folder is stored
-path = 'C:/Users\Moin Dalvi\Documents\Data Science Material\Projects\Resume Classification/Resumes'
+path = 'C:\Users\kushalreddy\Downloads\keerthana\Resume_Screening_and_Parser-main\Resumes'
 text =[]
 role = []
 
